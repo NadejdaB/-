@@ -1,0 +1,443 @@
+.text-dark:hover{
+    color:red;
+    
+
+}
+
+.btn-outline-success{
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+    font-size: 1rem;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+}
+
+@media(min-width:321px) and (max-width:480px) {
+  .btn-outline-success{
+    font-size: 0.5rem;
+  }
+}
+
+.btn-outline-success:hover{
+   background-color: red;
+   color: black;
+}
+
+.blog-header-logo {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+    font-size: 3rem;
+    text-transform: uppercase;
+  }
+  
+
+.btn-sm{
+    width: 5rem;
+}
+
+@media(min-width:321px) and (max-width:480px) {
+
+  .btn-sm{
+    width: 0.7rem;
+    height: 0.5rem;
+ 
+}
+
+}
+
+
+
+
+
+
+
+@media(min-width:321px) and (max-width:480px) {
+  .link-secondary{
+width: 0.7rem;
+  }
+  }
+
+@media(min-width:321px) and (max-width:480px) {
+.blog-header-logo p{
+  font-size: 1rem;
+  
+}
+}
+
+.nav-link{
+    font-size:1.1rem;
+    color: black;
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    }
+    .nav-link:hover{
+        color: red;
+    }
+
+
+
+    @media(min-width:321px) and (max-width:480px) {
+.nav-link {
+  width: 50%;
+  font-size: 0.7rem;
+  margin-left: 10px;
+}
+    }
+
+
+    @media(min-width:321px) and (max-width:480px) {
+.nav-link{
+  width: 70%;
+}
+    }
+
+ .top  {
+    color:red;
+ }
+
+.p-4  img{
+    width: 30%;
+    position: absolute;
+    right: 20rem;
+    top:15rem;
+  
+    }
+    
+    @media(min-width:321px) and (max-width:480px) {
+      .p-4  img{
+        width: 30%;
+        position: absolute;
+        right: 0.75rem;
+        top:9.5rem;
+        }
+    }
+
+
+
+.p-4 a:hover{
+  color: red;
+}
+
+
+    .card-text{
+        text-align: justify;
+        overflow: hidden;
+    }
+  .d-inline-block p{
+    color:red;
+  }
+  .pb-4{
+    background-color: red;
+  }
+  .fst-italic{
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  @media(min-width:321px) and (max-width:480px) {
+
+    .fst-italic{
+      font-size:1.2rem;
+     
+    }
+
+  }
+
+
+  .lead{
+    text-indent: 1rem;
+    text-align: justify;
+  }
+
+  @media(min-width:321px) and (max-width:480px) {
+  .mb-auto{font-size: 0.7rem;
+    
+  overflow: hidden;}
+  }
+
+
+
+  @media(min-width:321px) and (max-width:480px) {
+.mb-0{font-size: 1.2rem;}
+  }
+
+
+.mb-auto{
+  text-indent:0.5rem;
+}
+
+.blog-post p{
+  text-indent: 2rem;
+}
+
+
+  .blog-post-meta a:hover{
+    color:red;
+  }
+
+  @media(min-width:321px) and (max-width:480px) {
+  .blog-post p{
+    font-size:0.7rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  }
+
+  @media(min-width:321px) and (max-width:480px) {
+.blog-post-title{
+  font-size: 1.2rem;
+  text-align: center;
+}
+  }
+
+  @media(min-width:321px) and (max-width:480px) {
+  .blog-post h3{
+     font-size: 1rem;
+    }
+      }
+
+
+  .blog-post img{
+    width: 30rem;
+    float: left;
+  }
+
+
+  @media(min-width:321px) and (max-width:480px) {
+
+    .blog-post img{
+      width: 75%;
+      margin-left: 1rem;
+    }
+
+  }
+
+
+
+
+
+  .blog-post p{
+    text-align: justify;
+  }
+  @media(min-width:321px) and (max-width:480px) {
+.blog-pagination{
+  width: 70%;
+}
+  }
+
+
+
+  .cardd{
+         width: 33%;
+    margin:0;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+@media(min-width:321px) and (max-width:480px) {
+  .cardd{
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+}
+
+
+.kart{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+@media(min-width:321px) and (max-width:480px) {
+  .kart{
+    display:block;
+}
+}
+
+
+
+.card-title{
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+    font-size: 1.2rem;
+margin-top: 1rem;
+text-align:center;
+color:black ;
+text-transform: uppercase;
+}
+
+
+@media(min-width:321px) and (max-width:480px) {
+  .card-title{
+    font-size: 1rem;
+  }
+}
+
+@media(min-width:321px) and (max-width:480px) {
+  .card-text{
+    font-size:0.7rem;
+   
+  }
+}
+
+.card-text{
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+    font-size: 0.75rem;
+    font-weight: lighter;
+margin-top: 1rem; 
+text-align:justify;
+color:black ;
+padding: 10px;
+
+}
+
+.btn-primary{
+margin-left: 8rem;
+margin-top: 1rem;
+}
+
+
+
+@media(min-width:321px) and (max-width:480px) {
+  .btn-primary{
+  
+    }
+}
+
+
+.btn-primary:hover{
+background-color:red;
+}
+.card-body img{
+    width: 100%;
+    
+}
+
+
+
+@media(min-width:321px) and (max-width:480px) {
+  .card-body img{
+    width: 80%;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+}
+
+
+
+.aud{
+display: flex;
+justify-content: center;
+}
+.blog-pagination{
+  float: right;
+}
+.btn-outline-primary{
+    border: 2px solid black;
+    color: black;
+    width: 5rem;
+}
+
+
+@media(min-width:321px) and (max-width:480px) {
+  .btn-outline-primary{
+   font-size: 0.6rem;
+    width: 4.5rem;
+}
+}
+
+
+
+@media(min-width:321px) and (max-width:480px) {
+  .btn-outline-secondary{
+   font-size: 0.6rem;
+    width: 4.5rem;
+}
+}
+
+.btn-outline-primary:hover{
+    color: white;
+    background-color: black;
+   
+}
+
+.btn-outline-secondary{
+    width: 5rem;
+    border: 2px solid black;
+    color: black; 
+    background-color: white;
+}
+
+.btn-outline-secondary:hover{
+    border: 2px solid black;
+    color: black; 
+    background-color: red;
+}
+
+
+.btn-dark{
+  width: 10rem;
+margin-left: 8rem;
+
+}
+
+
+.btn-dark:hover{
+color:black;
+background-color: red;
+
+}
+
+
+.articlee {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  color: black;
+  
+}
+.article.icon {
+  font-size:0.8rem;
+  margin-left: 2.5rem;
+  font-weight: Light;
+}
+.article p {
+  margin-left: 3rem;
+  font-size:1rem;
+}
+
+.blog-footer{
+  background-color: black;
+}
+.blog-footer a{
+  color: white;
+} 
+.blog-footer a:hover{
+color:red;
+} 
+/* бегущая строка    */
+.marquee {
+  width: 450px;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  /*box-sizing: border-box;
+  border: 1px dotted #800000;*/
+ }
+ 
+ .marquee span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 15s linear infinite;
+ }
+ 
+ .marquee span:hover {
+  animation-play-state: paused
+ }
+ 
+ @keyframes marquee {
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-100%, 0); }
+ }
